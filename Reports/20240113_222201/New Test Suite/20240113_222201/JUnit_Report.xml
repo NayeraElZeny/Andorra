@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="639.693" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="639.693" skipped="0" timestamp="13-01-2024T22:22:07" hostname="nmohamed - RD-LP-027.ISFPDOMAIN.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 7 (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nmohamed\\Katalon Studio\\Mob\\Reports\\20240113_222201\\New Test Suite\\20240113_222201"/>
+         <property name="logFiles" value="C:\\Users\\nmohamed\\Katalon Studio\\Mob\\Reports\\20240113_222201\\New Test Suite\\20240113_222201\\appium.log, C:\\Users\\nmohamed\\Katalon Studio\\Mob\\Reports\\20240113_222201\\New Test Suite\\20240113_222201\\appium_error.log, C:\\Users\\nmohamed\\Katalon Studio\\Mob\\Reports\\20240113_222201\\New Test Suite\\20240113_222201\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nmohamed - RD-LP-027.ISFPDOMAIN.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.4.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.4.1"/>
+         <property name="deviceModel" value="Redmi Note 7"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="ea75045"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 7 (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Andorra" time="639.328" classname="Test Cases/Andorra" status="PASSED">
+         <system-out><![CDATA[13-01-2024T22:22:08 - [TEST_CASE][PASSED] - Test Cases/Andorra: Test Cases/Andorra
+
+13-01-2024T22:22:08 - [TEST_STEP][PASSED] - startApplication("C:\Users\nmohamed\AppData\Local\Microsoft\Windows\INetCache\IE\PVJG35F3\General-Store[1].apk", true): Started app at: 'C:\Users\nmohamed\AppData\Local\Microsoft\Windows\INetCache\IE\PVJG35F3\General-Store[1].apk'
+
+13-01-2024T22:22:08 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+13-01-2024T22:22:09 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-01-2024T22:22:14 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-01-2024T22:22:14 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\nmohamed\.appium
+
+13-01-2024T22:22:14 - [MESSAGE][INFO] - appium outlog: C:\Users\nmohamed\Katalon Studio\Mob\Reports\20240113_222201\New Test Suite\20240113_222201\appium.log
+
+13-01-2024T22:22:14 - [MESSAGE][INFO] - appium errlog: C:\Users\nmohamed\Katalon Studio\Mob\Reports\20240113_222201\New Test Suite\20240113_222201\appium_error.log
+
+13-01-2024T22:22:16 - [MESSAGE][INFO] - Appium server started on port 63,706
+
+13-01-2024T22:22:33 - [MESSAGE][PASSED] - Started app at: 'C:\Users\nmohamed\AppData\Local\Microsoft\Windows\INetCache\IE\PVJG35F3\General-Store[1].apk'
+
+13-01-2024T22:22:33 - [TEST_STEP][PASSED] - scrollToText("Andorra"): Scrolling to text 'Andorra' successfully
+
+13-01-2024T22:23:36 - [MESSAGE][PASSED] - Scrolling to text 'Andorra' successfully
+
+13-01-2024T22:23:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Andorra/android.widget.TextView - Andorra"), 0): Tapped on element 'Object Repository/Andorra/android.widget.TextView - Andorra'
+
+13-01-2024T22:23:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-01-2024T22:24:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Andorra/android.widget.TextView - Andorra'
+
+13-01-2024T22:24:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Andorra/android.widget.EditText - Enter name here"), "Nayera", 0): Text 'Nayera' has been set to element 'Object Repository/Andorra/android.widget.EditText - Enter name here'
+
+13-01-2024T22:24:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-01-2024T22:26:58 - [MESSAGE][PASSED] - Text 'Nayera' has been set to element 'Object Repository/Andorra/android.widget.EditText - Enter name here'
+
+13-01-2024T22:26:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Andorra/android.widget.RadioButton - Female"), 0): Tapped on element 'Object Repository/Andorra/android.widget.RadioButton - Female'
+
+13-01-2024T22:26:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-01-2024T22:27:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Andorra/android.widget.RadioButton - Female'
+
+13-01-2024T22:27:59 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+13-01-2024T22:28:09 - [MESSAGE][PASSED] - Press back button successfully
+
+13-01-2024T22:28:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Andorra/android.widget.Button - Lets  Shop"), 0): Tapped on element 'Object Repository/Andorra/android.widget.Button - Lets  Shop'
+
+13-01-2024T22:28:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-01-2024T22:29:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Andorra/android.widget.Button - Lets  Shop'
+
+13-01-2024T22:29:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Andorra/android.widget.TextView - ADD TO CART"), 0): Tapped on element 'Object Repository/Andorra/android.widget.TextView - ADD TO CART'
+
+13-01-2024T22:29:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-01-2024T22:30:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Andorra/android.widget.TextView - ADD TO CART'
+
+13-01-2024T22:30:33 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Andorra/android.widget.TextView - Air Jordan 4 Retro"), 0): Text of element 'Object Repository/Andorra/android.widget.TextView - Air Jordan 4 Retro' is: 'Air Jordan 4 Retro'
+
+13-01-2024T22:30:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-01-2024T22:31:26 - [MESSAGE][PASSED] - Text of element 'Object Repository/Andorra/android.widget.TextView - Air Jordan 4 Retro' is: 'Air Jordan 4 Retro'
+
+13-01-2024T22:31:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Andorra/android.widget.TextView - Air Jordan 4 Retro"), "Air Jordan 4 Retro"): Actual text and expected text of test object 'Object Repository/Andorra/android.widget.TextView - Air Jordan 4 Retro' are matched.
+
+13-01-2024T22:32:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Andorra/android.widget.TextView - Air Jordan 4 Retro' are matched.
+
+13-01-2024T22:32:46 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-01-2024T22:32:47 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-01-2024T22:22:07 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Andorra]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
